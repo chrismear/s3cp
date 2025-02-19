@@ -39,7 +39,7 @@ Gem::Specification.new do |s|
   s.add_dependency("nokogiri", ["~> 1.6.6.2"])
 
   s.add_development_dependency("rspec", ["~> 2.5.0"])
-  s.add_development_dependency("rake", ["~> 0.8.7"])
+  s.add_development_dependency("rake", "~> 12.3.3")
 
   s.files        = Dir.glob("lib/**/*") +
                    %w{History.txt README.md} +
